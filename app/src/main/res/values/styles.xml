@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ListDivider">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:background">@drawable/divider</item>
+    </style>
+
+
+        <style name="WalletFragmentText">
+            <item name="android:textColor">@color/wallet_details_color</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textStyle">normal</item>
+        </style>
+
+        <style name="SelectionDetailsHeaderText"
+            parent="WalletFragmentText">
+            <item name="android:textStyle">bold</item>
+        </style>
+
+</resources>

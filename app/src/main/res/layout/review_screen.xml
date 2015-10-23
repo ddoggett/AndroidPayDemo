@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/dynamic_wallet_masked_wallet_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:id="@+id/makePurchase"
+        android:layout_height="48dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirm Purchase"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+</LinearLayout>
